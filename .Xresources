@@ -1,0 +1,34 @@
+#include "/Users/b4d_tR1p/.colors/sexy"
+! #########################################
+!urxvt.termName: xterm
+urxvt*cursorUnderline: 1
+urxvt*fading: 1
+urxvt*cursorBlink: true
+!urxvt*imLocale: en_US.UTF-8
+urxvt*scrollBar: false
+URxvt*internalBorder:5
+!URxvt*geometry: 90x35
+urxvt*visualBell: false
+urxvt*perl-lib: /usr/local/Cellar/rxvt-unicode/9.20/urxvt/perl
+urxvt*perl-ext-common: default,matcher,font-size
+urxvt*perl-matcher: 1
+urxvt*matcher-button: 3
+urxvt*url-launcher: /usr/bin/firefox
+URxvt.keysym.Shift-Control-C : perl:clipboard:copy
+URxvt.keysym.Shift-Control-V : perl:clipboard:paste
+URxvt.url-select.launcher:  /usr/bin/firefox
+URxvt.url-select.underline: true
+! Font change settings
+!URxvt.iso14755: false
+!URxvt.iso14755_52: false
+URxvt.keysym.C-equal: perl:font-size:increase
+URxvt.keysym.C-minus: perl:font-size:decrease
+urxvt*font: xft:monaco:size=9
+urxvt*boldFont: xft:monaco:size=9
+urxvt*italicFont: xft:monaco:size=9
+urxvt*bolditalicFont: xft:monaco:size=9
+!xclock*majorColor: #9a875f
+!xclock*minorColor: #9a875f
+!xclock*minuteColor: #9a875f
+!xclock*hourColor: #9a875f
+!xclock*secondColor: #9a875f

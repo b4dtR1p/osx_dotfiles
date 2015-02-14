@@ -1,0 +1,23 @@
+mpd_music_dir = "/home/b4dtr1p/music"
+
+visualizer_in_stereo = "yes"
+visualizer_fifo_path = "/home/b4dtr1p/.mpd/mpd.fifo"
+visualizer_output_name = "mpd"
+visualizer_type = "wave" (spectrum/wave)
+visualizer_color = "red"
+
+playlist_display_mode = "classic" (classic/columns)
+
+main_window_color = "white"
+main_window_highlight_color = "green"
+
+progressbar_color = "red"
+progressbar_elapsed_color = "red"
+
+statusbar_color = "white"
+active_column_color = "green"
+
+song_list_format = "[%l] {%a - %t}|{%f} {$R %b}"
+
+progressbar_look = "─━ "
+

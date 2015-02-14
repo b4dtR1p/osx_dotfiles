@@ -1,0 +1,57 @@
+# launch terminal
+mod1 + Return
+	urxvt -geometry 70x20
+
+mod1 + d
+	dmenu_run
+
+# focus next window
+mod1 + ctrl + Tab
+	swc -focus next
+
+# kill window
+mod1 + x
+	swc -kill
+
+mod1 + ctrl + q
+	pkill X
+
+# movement
+mod1 + g
+	swc -m x -50
+mod1 + j
+	swc -m y +50
+mod1 + k
+	swc -m y -50
+mod1 + l
+	swc -m x +50
+
+# resize
+mod1 + shift + h
+	swc -r x -50
+mod1 + shift + j
+	swc -r y +50
+mod1 + shift + k
+	swc -r y -50
+mod1 + shift + l
+	swc -r x +50
+
+# small movements
+mod1 + ctrl + h
+	swc -m x -1
+mod1 + ctrl + j
+	swc -m y +1
+mod1 + ctrl + k
+	swc -m y -1
+mod1 + ctrl + l
+	swc -m x +1
+
+# small resize
+mod1 + shift + ctrl + h
+	swc -r x -1
+mod1 + shift + ctrl + j
+	swc -r y +1
+mod1 + shift + ctrl + k
+	swc -r y -1
+mod1 + shift + ctrl + l
+	swc -r x +1

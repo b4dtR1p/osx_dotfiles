@@ -1,0 +1,23 @@
+! haze
+
+*background:  #f7f7df
+*foreground:  #413d33
+*cursorColor: #6d6655
+
+
+*color0:  #fbfbef
+*color1:  #B28B7B
+*color2:  #B3AE90
+*color3:  #a49074
+*color4:  #7D8681
+*color5:  #98696F
+*color6:  #898776
+*color7:  #534c3c
+*color8:  #8f99ae
+*color9:  #b99688
+*color10: #bab69b
+*color11: #b5a58d
+*color12: #8a928d
+*color13: #a2787d
+*color14: #9d9a87
+*color15: #6d6655
